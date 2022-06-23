@@ -1,0 +1,16 @@
+main {
+    background-color: #1C1C1C;
+    padding-top: 50px;
+    text-align: center;
+
+    & > div:last-child {
+      display: inline-block;
+      color: white;
+      text-transform: uppercase;
+      font-size: .8rem;
+      background-color: $dc-color;
+      margin: auto;
+      padding: 5px 35px;
+      margin: 20px 0;
+    }
+  }

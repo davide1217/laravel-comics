@@ -1,0 +1,21 @@
+div.col-2 {
+    padding: 10px;
+    cursor: pointer;
+
+    .image {
+        height: 130px;
+        overflow: hidden;
+        margin-bottom: 20px;
+        transition: .5s;
+    }
+
+    &:hover .image{
+        margin: -10px 0 30px 0;
+    }
+
+    h3 {
+        font-size: .7rem;
+        color: white;
+        text-transform: uppercase;
+    }
+  }
