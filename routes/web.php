@@ -56,4 +56,201 @@ Route::get('/', function () {
     return view('home', $data);
 })->name('home');
 
+Route::get('character', function () {
 
+    $data = [
+        'headerMenu' => [
+            'character',
+            'comics',
+            'movies',
+            'tv',
+            'collectibles',
+            'games',
+            'videos',
+            'fans',
+            'news',
+            'shop'
+        ]
+    ];
+    return view('character', $data);
+})->name('character');
+
+
+Route::get('collectibles', function () {
+
+    $data = [
+        'headerMenu' => [
+            'character',
+            'comics',
+            'movies',
+            'tv',
+            'collectibles',
+            'games',
+            'videos',
+            'fans',
+            'news',
+            'shop'
+        ]
+    ];
+    return view('collectibles', $data);
+})->name('collectibles');
+
+
+Route::get('comics', function () {
+
+    $data = [
+        'headerMenu' => [
+            'character',
+            'comics',
+            'movies',
+            'tv',
+            'collectibles',
+            'games',
+            'videos',
+            'fans',
+            'news',
+            'shop'
+        ]
+    ];
+    return view('comics', $data);
+})->name('comics');
+
+
+Route::get('fans', function () {
+
+    $data = [
+        'headerMenu' => [
+            'character',
+            'comics',
+            'movies',
+            'tv',
+            'collectibles',
+            'games',
+            'videos',
+            'fans',
+            'news',
+            'shop'
+        ]
+    ];
+    return view('fans', $data);
+})->name('fans');
+
+
+Route::get('games', function () {
+
+    $data = [
+        'headerMenu' => [
+            'character',
+            'comics',
+            'movies',
+            'tv',
+            'collectibles',
+            'games',
+            'videos',
+            'fans',
+            'news',
+            'shop'
+        ]
+    ];
+    return view('games', $data);
+})->name('games');
+
+
+Route::get('movies', function () {
+
+    $data = [
+        'headerMenu' => [
+            'character',
+            'comics',
+            'movies',
+            'tv',
+            'collectibles',
+            'games',
+            'videos',
+            'fans',
+            'news',
+            'shop'
+        ]
+    ];
+    return view('movies', $data);
+})->name('movies');
+
+
+Route::get('news', function () {
+
+    $data = [
+        'headerMenu' => [
+            'character',
+            'comics',
+            'movies',
+            'tv',
+            'collectibles',
+            'games',
+            'videos',
+            'fans',
+            'news',
+            'shop'
+        ]
+    ];
+    return view('news', $data);
+})->name('news');
+
+
+Route::get('shop', function () {
+
+    $data = [
+        'headerMenu' => [
+            'character',
+            'comics',
+            'movies',
+            'tv',
+            'collectibles',
+            'games',
+            'videos',
+            'fans',
+            'news',
+            'shop'
+        ]
+    ];
+    return view('shop', $data);
+})->name('shop');
+
+
+Route::get('tv', function () {
+
+    $data = [
+        'headerMenu' => [
+            'character',
+            'comics',
+            'movies',
+            'tv',
+            'collectibles',
+            'games',
+            'videos',
+            'fans',
+            'news',
+            'shop'
+        ]
+    ];
+    return view('tv', $data);
+})->name('tv');
+
+
+Route::get('videos', function () {
+
+    $data = [
+        'headerMenu' => [
+            'character',
+            'comics',
+            'movies',
+            'tv',
+            'collectibles',
+            'games',
+            'videos',
+            'fans',
+            'news',
+            'shop'
+        ]
+    ];
+    return view('videos', $data);
+})->name('videos');
